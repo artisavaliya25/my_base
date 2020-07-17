@@ -87,11 +87,11 @@ DATABASES = {
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
 PASSWORD_HASHERS=[
-    'djnago.contib.auth.hashers.Argon2PasswordHasher',
-    'djnago.contib.auth.hashers.BCryptSHA256PasswordHasher',
-    'djnago.contib.auth.hashers.BCryptPasswordHasher',
-    'djnago.contib.auth.hashers.PBKDF2PasswordHasher',  
-    'djnago.contib.auth.hashers.PBKDF2SHA1PasswordHasher',
+    'django.contib.auth.hashers.Argon2PasswordHasher',
+    'django.contib.auth.hashers.BCryptSHA256PasswordHasher',
+    'django.contib.auth.hashers.BCryptPasswordHasher',
+    'django.contib.auth.hashers.PBKDF2PasswordHasher',  
+    'django.contib.auth.hashers.PBKDF2SHA1PasswordHasher',
 ]
 AUTH_PASSWORD_VALIDATORS = [
     {
